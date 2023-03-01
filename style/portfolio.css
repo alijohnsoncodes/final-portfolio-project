@@ -134,6 +134,37 @@ font-family: var(--default-font-family);
     padding: 120px 60px 0;
 }
 
+footer {
+    margin: 60px 0;
+}
+footer .email-link {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 24px;
+}
+
+footer .email-link:hover {
+    color: var(--branding-color);
+}
+
+
+footer .social-links a {
+margin: 0 20px;
+color: var(--branding-color);
+background-color: var(--secondary-color);
+padding: 10px 14px;
+font-size: 18px;
+border-radius: 50%;
+}
+
+footer .social-links a:hover {
+    color: white;
+    background: var(--branding-color);
+    transition: all 100ms ease-in-out;
+}
+
+
 @media (max-width: 960px) {
     .project-description {
         padding: 0;
@@ -158,3 +189,4 @@ font-family: var(--default-font-family);
         padding: 0;
     }
 }
+
