@@ -36,6 +36,18 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 64px;
     }
 
+    h4 {
+        font-size: 48px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    .btn {
+        font-size: 18px;
+    }
+    
 .hero p {
 font-size: 36px;
 font-weight: bold;
@@ -137,10 +149,21 @@ font-family: var(--default-font-family);
 footer {
     margin: 60px 0;
 }
+
+footer .contact-box {
+    background-color: var(--secondary-color);
+    padding: 60px 120px;
+    border-radius: 10px;
+    margin: 120px;
+}
+
+footer .contact-box p {
+    margin: 0;
+}
+
 footer .email-link {
     text-decoration: none;
     color: black;
-    text-align: center;
     font-size: 24px;
 }
 
@@ -156,12 +179,12 @@ background-color: var(--secondary-color);
 padding: 10px 14px;
 font-size: 18px;
 border-radius: 50%;
+transition: all 100ms ease-in-out;
 }
 
 footer .social-links a:hover {
     color: white;
     background: var(--branding-color);
-    transition: all 100ms ease-in-out;
 }
 
 
