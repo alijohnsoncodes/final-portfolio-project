@@ -12,7 +12,7 @@ body {
 .hero {
 background-color: var(--secondary-color);
 text-align: center;
-padding: 160px 20px;
+padding: 80px 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -36,13 +36,10 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 64px;
     }
 
-    h4 {
+    h3 {
         font-size: 48px;
     }
 
-    h3 {
-        font-size: 18px;
-    }
 
     .btn {
         font-size: 18px;
@@ -94,7 +91,7 @@ nav a:hover {
 }
 
 .content-container {
-padding: 160px 20px;
+padding: 60px 20px;
 }
 
 .content h1 {
@@ -194,10 +191,6 @@ footer .social-links a:hover {
         text-align: center;
     }
 
-    .hero {
-        padding: 80px 20px;
-        }
-
     h1 {
         font-size: 44px;
         line-height: 56px;
@@ -205,6 +198,10 @@ footer .social-links a:hover {
 
     h2 {
         font-size: 44px;
+    }
+
+    h3 {
+        font-size: 26px;
     }
 
     .content {
